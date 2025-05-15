@@ -15,7 +15,7 @@ do this in Python code and lazily import prometheus_client.
 import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 from vllm.config import SupportsMetricsInfo, VllmConfig
 from vllm.spec_decode.metrics import SpecDecodeWorkerMetrics
